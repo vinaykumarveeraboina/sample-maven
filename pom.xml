@@ -31,14 +31,14 @@
   </dependencies>
   <distributionManagement>
       <repository>
-          <id>nexus</id>  
+          <id>repository</id>  
           <name>Release Repos</name>
-          <url>ttp://34.125.83.173:8081/repository/first-release/</url>
+          <url>https://vinaydevopsartifacts.jfrog.io/ui/repos/tree/General/sample_maven-libs-release/</url>
        </repository>
       <snapshotRepository>
-          <id>nexus</id>
+          <id>jfrog-snapshots</id>
           <name>Snapshot Repos</name>
-          <url>http://34.125.83.173:8081/repository/first-snapshot/</url>
+          <url>https://vinaydevopsartifacts.jfrog.io/ui/repos/tree/General/sample_maven-libs-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
   <build>
