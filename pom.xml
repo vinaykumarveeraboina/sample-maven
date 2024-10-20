@@ -31,7 +31,7 @@
   </dependencies>
   <distributionManagement>
       <repository>
-          <id>repository</id>  
+          <id>jfrog-repository</id>  
           <name>Release Repos</name>
           <url>https://vinaydevopsartifacts.jfrog.io/ui/native/sample_maven-libs-release/</url>
        </repository>
