@@ -13,7 +13,8 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <sonar.host.url>https://sonarcloud.io:9000/</sonar.host.url>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.organization>githuborgnization</sonar.organization>
     <sonar.login>197d51f836194de0c815bded780ab55883c77aca</sonar.login>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
