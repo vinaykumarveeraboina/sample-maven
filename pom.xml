@@ -33,12 +33,12 @@
       <repository>
           <id>repository</id>  
           <name>Release Repos</name>
-          <url>https://vinaydevopsartifacts.jfrog.io/ui/native/sample_maven-libs-snapshot/</url>
+          <url>https://vinaydevopsartifacts.jfrog.io/ui/native/sample_maven-libs-release/</url>
        </repository>
       <snapshotRepository>
           <id>jfrog-snapshots</id>
           <name>Snapshot Repos</name>
-          <url> https://vinaydevopsartifacts.jfrog.io/ui/native/sample_maven-libs-release/</url>
+          <url>https://vinaydevopsartifacts.jfrog.io/ui/native/sample_maven-libs-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
   <build>
